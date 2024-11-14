@@ -98,23 +98,26 @@ h4, h5, h6 {
 
 /* Review Header */
 .review-header-section {
-  background-color: #ffffff;
+  background-image: url('../images/review-header.jpg'); /* Set background image */
+  background-size: cover;  /* Ensures the image covers the entire section */
+  background-position: center; /* Centers the image */
   padding: 60px 0;
   text-align: center;
-  animation: fadeIn 1s ease-out;
+  animation: fadeIn 1s ease-out; /* Animation for smooth fade-in */
 }
 
 .review-header-section h1 {
   font-size: 3rem;
   font-family: 'Happy Monday', sans-serif;
   margin-bottom: 15px;
+  color: #ffffff; /* Ensures the text is visible on the background */
   animation: slideInFromTop 1s ease-out;
 }
 
 .review-header-section .lead {
   font-family: 'Retrograde', sans-serif;
   font-size: 1.2rem;
-  color: #7f8c8d;
+  color: #ecf0f1; /* Lighter color for readability */
 }
 
 .review-header-section img {
@@ -125,7 +128,7 @@ h4, h5, h6 {
 }
 
 .review-header-section img:hover {
-  transform: scale(1.05);
+  transform: scale(1.05); /* Hover effect to enlarge the image */
 }
 
 /* Review Content */
